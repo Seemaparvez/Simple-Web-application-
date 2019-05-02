@@ -27,8 +27,6 @@
 	
 	<p>Summary
 	<h2> you have entered<span id="countchar" style="color:red;"> 0 </span> characters ! </h2>
-	<h2> you have entered<span id="countlines" style="color:red;"> 0 </span> lines ! </h2>
-	<h2> you have entered<span id="countwords" style="color:red;"> 0 </span> words ! </h2>
 	</p>
 	
 </center>
