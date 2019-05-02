@@ -1,0 +1,37 @@
+<html>
+	<head>
+	<script type="text/javascript">
+	
+		function charcounts(startfrom, charend)
+		{
+		var len=document.getElementById(startfrom).value.length;
+		document.getElementById(charend).innerHTML=len;
+		}
+		
+		
+		</script>
+	</head>
+<body>
+<form>
+<center>
+<textarea 
+	placeholder="please type here...." id="value" rows="8" cols="20" maxlength="70"
+	style="font-size:50px;"
+	onkeyup="charcounts('value','countchar');"
+	onkeydown="charcounts('value','countchar');"
+	onmouseout="charcounts('value','countchar');"
+	
+	
+	></textarea>
+	</br>
+	
+	<p>Summary
+	<h2> you have entered<span id="countchar" style="color:red;"> 0 </span> characters ! </h2>
+	<h2> you have entered<span id="countlines" style="color:red;"> 0 </span> lines ! </h2>
+	<h2> you have entered<span id="countwords" style="color:red;"> 0 </span> words ! </h2>
+	</p>
+	
+</center>
+</form>
+</body>
+</html>
